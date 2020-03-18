@@ -82,30 +82,25 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
-/* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-  "#2e3440", /* base00 */
-  "#88c0d0", /* base08 */
-  "#bf616a", /* base0B */
-  "#5e81ac", /* base0A */
-  "#ebcb8b", /* base0D */
-  "#a3be8c", /* base0E */
-  "#d08770", /* base0C */
-  "#e5e9f0", /* base05 */
-  "#4c566a", /* base03 */
-  "#81a1c1", /* base09 */
-  "#3b4252", /* base01 */
-  "#434c5e", /* base02 */
-  "#d8dee9", /* base04 */
-  "#eceff4", /* base06 */
-  "#b48ead", /* base0F */
-  "#8fbcbb", /* base07 */
+  "#fdf6e3", /* base00 */
+  "#dc322f", /* base08 */
+  "#859900", /* base0B */
+  "#b58900", /* base0A */
+  "#268bd2", /* base0D */
+  "#6c71c4", /* base0E */
+  "#2aa198", /* base0C */
+  "#586e75", /* base05 */
+  "#839496", /* base03 */
+  "#cb4b16", /* base09 */
+  "#eee8d5", /* base01 */
+  "#93a1a1", /* base02 */
+  "#657b83", /* base04 */
+  "#073642", /* base06 */
+  "#d33682", /* base0F */
+  "#002b36", /* base07 */
 };
 
-/*
- * Default colors (colorname index)
- * foreground, background, cursor, reverse cursor
- */
 unsigned int defaultfg = 7;
 unsigned int defaultbg = 0;
 static unsigned int defaultcs = 13;
